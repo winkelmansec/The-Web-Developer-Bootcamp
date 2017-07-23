@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	clear:both;
+   float:center;
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+}
+
+.vertical {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+
+}
+
+.horizontal {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+
+}
+
+
+/*tr {
+	border: solid black;
+	width: 100px;
+	height: 100px;
+}*/
