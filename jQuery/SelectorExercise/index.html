@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.min.js"></script>
+    <title></title>
+</head>
+
+<body>
+    <div>Div 1</div>
+    <div class = "highlight">Div 2</div>
+    <div id = "third">Div 3</div>
+    <div class = "highlight">Div 4</div>
+</body>
+
+<script>
+    var styles = {
+    border: "solid orange"
+};
+
+$("div").css("background", "purple");
+$(".highlight").css("width", "200px");
+$("#third").css(styles);
+$("div:first").css("color", "pink");
+
+</script>
+
+
+
+
+</html>
